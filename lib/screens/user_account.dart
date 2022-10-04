@@ -106,6 +106,7 @@ class _UserAccountState extends State<UserAccount> {
           }
         }
         likedData.sort((a, b) => b[1].compareTo(a[1]));
+        print(likedData);
         return NotifiationScreen(
           likedData,
           imageUrl,
